@@ -40,13 +40,16 @@ Implementation and Verification
 
 Network Topology
 The design includes a centralized Wireless-N Router connected to a Cisco Catalyst Switch, which distributes the connection to a high-performance PC and a shared Network Printer.
+![Network Topology](topology.png/Screenshot%202026-04-06%20231138.png)
 
 Administrative Security
 Web Utility access is protected by a custom authorization layer. Default admin access is strictly controlled to prevent unauthorized configuration changes.
 
+![Security Challenge](Newrouter_security.png%20folder/Screenshot%202026-04-06%20230039.png)
+
 Connectivity Test (Ping)
 Successful ICMP echo requests from the Smartphone (192.168.10.17) to the Desktop (192.168.10.10) with 0% packet loss.
-
+![Ping Verification](ping_test.png/Screenshot%202026-04-06%20231621.png)
 How to View the Lab
 
 Ensure you have Cisco Packet Tracer 8.0 or higher installed.
